@@ -1,0 +1,22 @@
+{
+  "name": "kisan-ai-server",
+  "version": "1.0.0",
+  "description": "Backend for Kisan Ai - Hindi-first personal crop-planning assistant",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "@google/genai": "^2.27.0",
+    "@google/generative-ai": "^0.21.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.12.1",
+    "multer": "^1.4.5-lts.1",
+    "uuid": "^11.1.0",
+    "ws": "^8.22.0"
+  }
+}
